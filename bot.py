@@ -103,7 +103,7 @@ def send_gpt_4handler(message):
 # option 4
 
 
-@bot.message_handler(commands=["4"])
+@bot.message_handler(commands=["5"])
 def send_message_5(message):
     sent_msg = bot.send_message(
         message.chat.id, "Key in the job you want to apply for")
